@@ -1,0 +1,34 @@
+@font-face {
+  font-family: NixieOne;
+  src: url('NixieOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url('Raleway-VariableFont_wght.ttf');
+}
+
+html * {
+  font-family: Raleway;
+  font-weight: 100;
+}
+
+.gan-logo {
+  font-family: NixieOne;
+}
+
+.gan-light {
+  color: #FF6A00;
+  background: -webkit-linear-gradient(135deg, #ff6a00, #ee0979);
+}
+
+.gan-dark {
+  color: #267871;
+  background: -webkit-linear-gradient(135deg, #267871, #136a8a);
+}
+
+.gan-light, .gan-dark {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  display: inline-block; /* required for titles that span multiple lines */
+}
