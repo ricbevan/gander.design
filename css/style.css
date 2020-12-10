@@ -15,7 +15,7 @@ html * {
 
 .gan-logo {
   font-family: NixieOne;
-  font-size: 7vw;
+  /* font-size: min(10vw, 96px); */
 }
 
 .gan-light {
