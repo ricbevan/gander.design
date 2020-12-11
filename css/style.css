@@ -18,12 +18,12 @@ html * {
 }
 
 .gan-light {
-  color: #FF6A00;
+  color: #F73A3D;
   background: -webkit-linear-gradient(135deg, #ff6a00, #ee0979);
 }
 
 .gan-dark {
-  color: #267871;
+  color: #1D717E;
   background: -webkit-linear-gradient(135deg, #267871, #136a8a);
 }
 
