@@ -1,3 +1,4 @@
+/* fonts */
 @font-face {
   font-family: NixieOne;
   src: url('NixieOne-Regular.ttf');
@@ -8,26 +9,37 @@
   src: url('Raleway-VariableFont_wght.ttf');
 }
 
+/* overriding UIKit styles */
+html {
+  font-size: 20px;
+}
+
 html * {
   font-family: Raleway;
   font-weight: 100;
 }
 
-.gan-logo {
-  font-family: NixieOne;
+.uk-navbar-nav>li>a {
+  text-transform: none;
+  font-size: 1rem;
 }
 
-.gan-light {
+/* custom styles */
+.gan-logo * {
+  font-family: NixieOne !important;
+}
+
+.gan-light .highlight {
   color: #F73A3D;
   background: -webkit-linear-gradient(135deg, #ff6a00, #ee0979);
 }
 
-.gan-dark {
+.gan-dark .highlight {
   color: #1D717E;
   background: -webkit-linear-gradient(135deg, #267871, #136a8a);
 }
 
-.gan-light, .gan-dark {
+.highlight {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
   display: inline-block; /* required for titles that span multiple lines */
