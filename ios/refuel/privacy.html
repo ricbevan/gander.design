@@ -17,18 +17,27 @@
       <link rel="manifest" href="/media/favicons/site.webmanifest">
     </head>
     <body>
-      <div class="uk-section uk-padding-remove">
-        <nav class="uk-navbar-container" uk-navbar>
-          <div class="uk-navbar-left">
-            <ul class="uk-navbar-nav">
-              <a class="uk-navbar-item uk-logo gan-logo gan-light" href="/"><span class="highlight">gander.<span class="uk-hidden@s"> </span>design</span></a>
-              <li class="uk-active"><a class="uk-link-text gan-dark" href="/ios"><span class="highlight">ios</span></a></li>
-              <li class="uk-parent"><a class="uk-link-text gan-dark" href="/web"><span class="highlight">web</span></a></li>
-              <li class="uk-parent"><a class="uk-link-text gan-dark" href="/contact"><span class="highlight">contact</span></a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+      <nav class="uk-navbar-container" uk-navbar="dropbar: true">
+        <div class="uk-navbar-left">
+          <ul class="uk-navbar-nav">
+            <li>
+              <a href="#"><span uk-icon="icon: menu; ratio: 1.5"></span></a>
+              <div class="uk-navbar-dropdown">
+                <ul class="uk-nav uk-navbar-dropdown-nav">
+                  <li><a class="gan-dark" href="/ios"><span class="highlight">ios</span></a></li>
+                  <li><a href="/ios/breasy">breasy</a></li>
+                  <li><a href="/ios/refuel">refuel</a></li>
+                  <li><a class="gan-dark" href="/web"><span class="highlight">web</span></a></li>
+                  <li><a class="gan-dark" href="/contact"><span class="highlight">contact</span></a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="uk-navbar-right">
+          <a class="uk-navbar-item uk-logo gan-logo gan-light" href="/"><span class="highlight">gander.design</span></a>
+        </div>
+      </nav>
 
       <div class="uk-section">
         <div class="uk-container">
@@ -61,6 +70,7 @@
       </div>
 
       <script src="/js/uikit.min.js"></script>
+      <script src="/js/uikit-icons.min.js"></script>
       <script async defer data-domain="gander.design" src="https://plausible.io/js/plausible.js"></script>
     </body>
 </html>
