@@ -44,6 +44,14 @@ html * {
   background: -webkit-linear-gradient(135deg, #267871, #136a8a);
 }
 
+.gan-border-icon {
+  border-radius: 9.77%; /* same border radius as ios icon */
+}
+
+.gan-placeholder-icon {
+  padding: 0 0 100% 0; /* makes placeholder square */
+}
+
 .highlight {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
