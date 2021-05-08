@@ -42,17 +42,66 @@
       <div class="uk-flex uk-flex-column gan-height-viewpoint">
         <div class="uk-section">
           <div class="uk-container">
-            <div class="uk-container">
-              <ul class="uk-breadcrumb">
-                <li><a href="/">home</a></li>
-                <li><a href="/">ios</a></li>
-                <li><span>breasy</span></li>
-              </ul>
+            <div uk-grid>
+              <div class="uk-width-2-3">
+                <ul class="uk-breadcrumb">
+                  <li><a href="/">home</a></li>
+                  <li><a href="/">ios</a></li>
+                  <li><span>breasy</span></li>
+                </ul>
+
+                <h1 class="uk-heading-h2 gan-dark uk-margin-large-bottom"><span class="highlight">breasy</span></h1>
+
+                <p class="uk-text-lead">a simple, beautiful app for breathing exercises</p>
+
+                <p>
+                  <a class="uk-link-muted" href="#features" uk-scroll>features</a>
+                  <span class="uk-margin-small-left uk-margin-small-right">|</span>
+                  <a class="uk-link-muted" href="#privacy" uk-scroll>privacy</a>
+                </p>
+              </div>
+              <div class="uk-width-1-3">
+                <img src="/media/images/ios/breasy/begin.png" alt="breasy app start screenshot" class="uk-height-max-large uk-align-center" />
+              </div>
             </div>
 
-            <h1 class="uk-heading-h2 gan-dark uk-margin-large-bottom"><span class="highlight">breasy</span></h1>
+            <div uk-grid id="features">
+              <div class="uk-width-1-1"><h2 class="gan-dark uk-margin-large-top"><span class="highlight">features</span></h2></div>
+              <div class="uk-width-expand uk-text-right">
+                <div class="uk-height-1-1 uk-flex uk-flex-column uk-flex-center">
+                  <dl>
+                    <dt>apple health integration</dt>
+                    <dd>record your breathing sessions as mindful minutes</dd>
+                  </dl>
+                  <dl>
+                    <dt>vibration/sound feedback</dt>
+                    <dd>subtle, relaxing feedback to guide you through your session</dd>
+                  </dl>
+                </div>
+              </div>
+              <div class="uk-width-auto">
+                <img src="/media/images/ios/breasy/inhale.png" alt="breasy app inhale screenshot" class="uk-height-max-large" />
+              </div>
+              <div class="uk-width-expand">
+                <div class="uk-height-1-1 uk-flex uk-flex-column uk-flex-center">
+                  <dl>
+                    <dt>multiple techniques</dt>
+                    <dd>box breathing, 4-7-8, 7-11 and calming</dd>
+                  </dl>
+                  <dl>
+                    <dt>adjustable session time</dt>
+                    <dd>adjust your session time to suit your needs, or go continuous for as long as you want</dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
 
-            <p>Coming soon</p>
+            <div class="uk-child-width-1-1 uk-grid-small uk-margin-large-bottom" uk-grid id="privacy">
+              <h2 class="gan-dark uk-margin-medium-bottom uk-margin-large-top"><span class="highlight">privacy policy</span></h1>
+              <p>We don't store your data, period.</p>
+              <p>Any settings or data from breasy are stored only on your device, of which we have no access to.</p>
+              <p>If you're interested, here's our <a href="/privacy">website privacy policy</a>.</p>
+            </div>
           </div>
         </div>
 

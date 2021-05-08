@@ -19,6 +19,10 @@ html * {
   font-weight: 200;
 }
 
+dt {
+  font-weight: 400;
+}
+
 .uk-navbar-nav>li>a {
   text-transform: none;
   font-size: 1rem;
